@@ -5,19 +5,19 @@ int main() {
     float average, percentage;
 
     printf("Marks scored in Maths = ");
-    scanf("%d", marksInMaths);
+    scanf("%d", &marksInMaths);
 
     printf("Marks scored in Science = ");
-    scanf("%d", marksInScience);
+    scanf("%d", &marksInScience);
 
     printf("Marks scored in Hindi = ");
-    scanf("%d", marksInHindi);
+    scanf("%d", &marksInHindi);
 
     printf("Marks scored in English = ");
-    scanf("%d", marksInEnglish);
+    scanf("%d", &marksInEnglish);
 
     printf("Marks scored in Economics = ");
-    scanf("%d", marksInEconomics);
+    scanf("%d", &marksInEconomics);
 
     int sumOfMarks = marksInEconomics + marksInEnglish + marksInHindi + marksInMaths + marksInScience;
 
