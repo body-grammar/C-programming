@@ -19,11 +19,11 @@ int main() {
     printf("Marks scored in Economics = ");
     scanf("%d", &marksInEconomics);
 
-    int sumOfMarks = marksInEconomics + marksInEnglish + marksInHindi + marksInMaths + marksInScience;
+    sumOfMarks = marksInEconomics + marksInEnglish + marksInHindi + marksInMaths + marksInScience;
 
-    float average = sumOfMarks/500;
+    average = (float)sumOfMarks/500;
 
-    float percentage = average * 100;
+    percentage = average * 100;
 
     printf("Percentage acquired by the student is %f", percentage);
 
